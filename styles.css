@@ -34,6 +34,9 @@
     color: #ff9800;
   }
 
+  li{
+    font-size: 2rem;
+  }
 .heading{
     margin: 20px;
     padding: 15px;
@@ -50,7 +53,6 @@ body {
   
 
   .stargazing-container {
-    max-width: 900px;
     margin: 50px;
     padding-top: 50px;
     display: flex;
@@ -59,6 +61,7 @@ body {
   
 
   .section {
+    margin: 20px;
     margin-bottom: 2.5rem;
     background-color: #1a1c3b;
     padding: 1.5rem;
@@ -81,4 +84,9 @@ body {
   .section p {
     font-size: 1.1rem;
     color: #e0e0f0;
+  }
+
+  .contact-info{
+    margin-top: 1rem;
+    text-align: center;
   }
