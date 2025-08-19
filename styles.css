@@ -1,0 +1,84 @@
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1a1c3b;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #ff9800;
+  }
+
+.heading{
+    margin: 20px;
+    padding: 15px;
+    font-size: xx-large;
+}
+
+body {
+    background-color: #0b0c2a;
+    color: #ffffffcc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    padding: 2rem;
+  }
+  
+
+  .stargazing-container {
+    max-width: 900px;
+    margin: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+  .section {
+    margin-bottom: 2.5rem;
+    background-color: #1a1c3b;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 40, 0.5);
+    transition: transform 0.3s ease;
+  }
+  
+  .section:hover {
+    transform: translateY(-5px);
+  }
+  
+  .section img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+  }
+  
+  .section p {
+    font-size: 1.1rem;
+    color: #e0e0f0;
+  }
